@@ -1,0 +1,19 @@
+{
+  "name": "monopoly-bot",
+  "version": "1.0.0",
+  "description": "bot for monopoly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monopoly",
+    "bot",
+    "telegram"
+  ],
+  "author": "Nick Sotula",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
