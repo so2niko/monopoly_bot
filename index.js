@@ -1,3 +1,9 @@
+const express = require('express');
 
+const app = express();
 
-console.log('Hello, it is a bot');
+app.get('/', (req, res) => {
+    res.send('Hello, I am a BOT');
+});
+
+app.listen(3000);
