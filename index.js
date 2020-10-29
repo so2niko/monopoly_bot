@@ -11,9 +11,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  // res.writeHead(200, {
-  //     "Content-Type": "text/html; charset=utf-8",
-  //   });
+  res.writeHead(200, {
+      "Content-Type": "text/html; charset=utf-8",
+    });
   res.end('<h2>About bot</h2>'); 
 });
 
