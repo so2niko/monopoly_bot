@@ -4,7 +4,7 @@
   "description": "bot for monopoly",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "monopoly",
